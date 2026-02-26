@@ -1,0 +1,322 @@
+body{font-family:Helvetica, sans-serif ;margin:0px;padding: 0px;background-color:#163503;font-weight: normal;}
+
+.gamheader{
+    width: 1200px;
+    height: 160px;
+    /* padding-left: 15px;
+    padding-bottom: 20px; */
+    padding: 20px 0px 20px 30px;
+    border-radius: 40px;
+}
+
+.navigator{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #ffbb00;
+    top: 0;
+    z-index: 3;
+    font-weight: bolder;
+    
+}
+
+.navigator li{
+position: relative;
+float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(48, 92, 12);
+    color: #fffacd;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px black;
+    background-color: rgb(66, 99, 5);
+    min-width:160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: #fffacd;;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.4s;
+}
+
+.dropdown-content a:hover{
+     background-color: rgb(32, 45, 1);
+    color: #e4d0a1;;
+    transition: 0.4s;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    transition: 0.4s;
+}
+
+/* KERJAMSAMA */
+img.subheader{margin: 0;display: block; width: 1264.5px; }
+
+.pengertian{
+    background-color: rgb(255, 196, 0);
+    padding: 30px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+    margin-top: -20px;
+}
+/* Penjelasan */
+
+/* Gambar */
+
+/* mulai akhirnya anj */
+.dipsi{
+    width: 1225px;
+    height: 40px;
+    background-color: rgb(255, 196, 0);
+    margin-top: -90px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px dashed rgb(255, 249, 230);
+    color: #000000;
+    margin: 80px 40px 30px 20px
+} 
+
+.winki{
+    width: 1234px;
+    height: 40px;
+    background-color: rgb(255, 196, 0);
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px dashed black;
+}
+
+.tinki{
+    width: 1234px;
+    height: 40px;
+    background-color: rgb(255, 204, 0);
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px dashed black;
+}
+
+img.a{width: 400px; height: 200px;}
+
+.gi{background-color: beige; 
+    margin-left: 40px; 
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.kersam{
+    list-style-type: circle; 
+    padding-left: 30px;  
+    padding-bottom: 10px;
+    width: 550px;
+    height: 190px;
+    background-color: rgb(255, 239, 196);
+    border-radius: 7px;
+    color:#273c03;
+    margin-top: 20px;
+    transition: 0.4s;
+    padding-right: 10px;
+}
+
+.kersam p{
+    font-size: medium; 
+    margin-bottom: 5px;     
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 20px; 
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.kersam:hover{
+box-shadow: 0px 0px 10px rgb(249, 255, 196);
+width: 560px;
+height:215px ;
+transition: 0.4s;
+font-size: large;
+}
+
+.aa{margin-left: 60px; gap: 10px;}
+.li{font-size:larger;     line-height: 1.5;; }
+.lah{display: flex; padding-left: 0;}
+
+.awal{padding-left: 20px;}
+.awal p{font-size: larger;}
+
+.lala{font-size: x-large; margin-left: 20px; color:#09285a}
+
+.list{display: flex; gap: 20px; margin-left: 45px;}
+
+.udul{ margin-left: 20px;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+.h7{font-size: small;}
+
+.sub{
+justify-content: center;
+padding-right: 10px;
+background-color: rgb(252, 238, 219);
+    width: 1170px;
+    height: 300px;
+    border-radius: 7px;
+margin-top: 20px;
+margin-left: 43px;
+display: flex;
+color:#09285a;
+margin-top: 15px;
+padding-top: -10px;
+transition: 0.4s;
+}
+
+.judulbidang{color: rgb(37, 37, 36); padding-left: 10px;}
+
+.sub2 p{margin-left: 18px; line-height: 1.5;}
+
+img.ss{width: 400px; height: 300px; border-radius: 7px; transition: 0.4s;}
+
+img.ss:hover{
+    width: 430px;
+    height:330px;
+    transition: 0.4s;
+}
+
+.sub:has(img.ss:hover){
+    height: 330px;
+transition: 0.4s;
+font-size: large;
+box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+
+
+
+.lili{font-size: x-large; padding-top: 10px; margin-left: 20px;}
+.sub p{margin-top: -12px; padding: 0;}
+
+/* TANTANGAN */
+
+.tatangan{
+    background-color: rgb(255, 191, 0);
+    width: 1214.5px;
+    height: 500px;
+    margin-top: 15px ;
+    display: flex;
+    gap: 35px;
+    padding-left: 50px;
+}
+
+.andai{height: 800px;}
+
+.mengulang{height: 800px;}
+
+
+img.tangan{
+    border-radius: 7px;
+    width: 402px;
+    z-index: 1;
+    overflow: hidden;
+    height: 250px;
+}
+
+.bidang{
+    max-width: 500px;
+    height: 450px;
+    gap: 140px;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: -25px;
+    justify-content: center;
+    background-color: #F4EEDB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    max-width: 600px;
+    transition: 0.4s;
+}
+
+.bidang:hover{
+    width: 400px;
+    height: 460px;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.4s;
+}
+
+.angin{height: 750px;}
+
+.masa{height: 750px;}
+
+img.logo{width: 300px; height: 150px; margin-left: 30px;}
+
+.smua p{
+    font-size: medium;
+    margin-left: 13px;
+    margin-right: 13px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+.pendahuluan{
+    font-size:small; 
+    margin-left: 20px;
+    color:#000000;
+    margin-top: 25px;
+    margin-bottom: -40px;
+    margin-right: 30px;
+    background-color: #F4EEDB;
+    padding: 10px 20px 10px 20px;
+    text-align:center;
+    transition: 0.4s;
+}
+
+.pendahuluan:hover{
+    box-shadow: 0px 0px 20px black;
+    transition: 0.4s;
+    font-size:medium;
+}
+
+/* .smua{margin-left: 20px; padding-right: 10px;} */
+.smua{width: 400px;}
+
+.bidang{margin-top: 30px;}
+
+.judulbidang{
+    text-align: center
+}
